@@ -28,9 +28,7 @@ end
 class Teacher  < Person
 
     def initialize
-        #Los constructores son independientes. Se invocan a la clase hija con la palabra reservada "super".
-        #"super" debe estar en la primera línes del inicialize, después genera error. "super" es equivalente
-        # a copiar el códifo de la clase padre. 
+
         super(first_name, last_name)
     end
 
